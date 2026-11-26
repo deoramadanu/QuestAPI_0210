@@ -1,4 +1,8 @@
 package com.example.activity9.uicontroller.route
 
-object DestinasiEntry {
+import com.example.activity9.R
+
+object DestinasiEntry : DestinasiNavigasi {
+    override val route = "item_entry"
+    override val titleRes = R.string.entry_siswa
 }
